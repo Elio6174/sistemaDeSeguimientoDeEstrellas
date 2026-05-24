@@ -1,5 +1,5 @@
 SRC = src/main.cpp
-OBJ = build/main 
+OBJ = main 
 
 
 $(OBJ): $(SRC)
