@@ -52,6 +52,14 @@
     </div>
 </div>
 
+
+<table>
+  <tr>
+    <td><img src="http://else.mx/imgs/IMG_6.jpg" width="100%"></td>
+    <td><img src="http://else.mx/imgs/img6OutputFiltro.png" width="100%"></td>
+  </tr>
+</table>
+
 <style>
     .cont {
         display: flex;
