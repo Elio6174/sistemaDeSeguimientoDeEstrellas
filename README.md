@@ -5,15 +5,15 @@
 <h2>Jupiter</h2>
 <div class="cont">
     <div class="div-1">
-        <img src="images/IMG_1.jpg" width="300">
+        <img src="http://else.mx/imgs/IMG_1.jpg" width="300">
         <h3>Original</h3>
     </div>
     <div class="div-2">
-        <img src="images/IMG_1HSV.jpg" width="300">
+        <img src="http://else.mx/imgs/img1Output.png" width="300">
         <h3>HSV</h3>
     </div>
     <div class="div-3">
-        <img src="images/IMG_1MASK.jpg" width="300">
+        <img src="http://else.mx/imgs/img1OutputFiltro.png" width="300">
         <h3>MASK</h3>
     </div>
 </div>
@@ -22,15 +22,15 @@
 <h2>Luna 20mm</h2>
 <div class="cont">
     <div class="div-1">
-        <img src="images/IMG_3.jpg" width="300">
+        <img src="http://else.mx/imgs/IMG_3.jpg" width="300">
         <h3>Original</h3>
     </div>
     <div class="div-2">
-        <img src="images/IMG_3HSV.jpg" width="300">
+        <img src="http://else.mx/imgs/img3Output.png" width="300">
         <h3>HSV</h3>
     </div>
     <div class="div-3">
-        <img src="images/IMG_3MASK.jpg" width="300">
+        <img src="http://else.mx/imgs/img3OutputFiltro.png" width="300">
         <h3>MASK</h3>
     </div>
 </div>
@@ -39,15 +39,15 @@
 <h2>Luna 10mm</h2>
 <div class="cont">
     <div class="div-1">
-        <img src="images/IMG_6.jpg" width="300">
+        <img src="http://else.mx/imgs/IMG_6.jpg" width="300">
         <h3>Original</h3>
     </div>
     <div class="div-2">
-        <img src="images/IMG_6HSV.jpg" width="300">
+        <img src="http://else.mx/imgs/img6Output.png" width="300">
         <h3>HSV</h3>
     </div>
     <div class="div-3">
-        <img src="images/IMG_6MASK.jpg" width="300">
+        <img src="http://else.mx/imgs/img6OutputFiltro.png" width="300">
         <h3>MASK</h3>
     </div>
 </div>
