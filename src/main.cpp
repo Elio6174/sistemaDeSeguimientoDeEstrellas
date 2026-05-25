@@ -2,18 +2,13 @@
 #include <iostream>
 
 int main(){
-  cv::Mat img = cv::imread("images/IMG_1.jpg");
+  cv::Mat img = cv::imread("/var/www/html/imgs/IMG_6.jpg");
   cv::Mat hsv, mask, mask1, mask2;
 
   cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
   
-  cv::inRange(hsv, cv::Scalar(0, 120, 120), cv::Scalar(15, 255, 255), mask1);
-  cv::inRange(hsv, cv::Scalar(165, 120, 120), cv::Scalar(179, 255, 255), mask2);  
-//  cv::circle(mask, cv::Point(0, 0), 50, cv::Scalar(0, 0, 255), 3);
-//  cv::circle(mask, cv::Point(10, 10), 15, cv::Scalar(255, 255, 0), cv::FILLED);
-
-  cv::bitwise_or(mask1, mask2, mask);
-  cv::imwrite("imgOutPut.png", mask);  
+  cv::inRange(hsv, cv::Scalar(0,  0, 41), cv::Scalar(150, 32, 255), mask);
+  cv::imwrite("img6OutputFiltro.png", mask);  
 
   cv::waitKey(0);
   cv::destroyAllWindows();
