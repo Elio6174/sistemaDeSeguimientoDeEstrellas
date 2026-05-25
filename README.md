@@ -3,7 +3,10 @@
 </div>
 <table>
   <tr>
-    <h2>Jupiter</h2>
+    <th>Jupiter</th>
+    <th></th>
+  </tr>
+  <tr>
     <td>
         <img src="http://else.mx/imgs/IMG_1.jpg" width="100%">
         <h3>Original</h3>
@@ -14,7 +17,6 @@
     </td>
   </tr>
   <tr>
-    <h2>Luna 20mm</h2>
     <td>
         <img src="http://else.mx/imgs/IMG_3.jpg" width="100%">
         <h3>Original</h3>
@@ -25,7 +27,6 @@
     </td>
   </tr>
   <tr>
-    <h2>Luna 10mm</h2>
     <td>
         <img src="http://else.mx/imgs/IMG_6.jpg" width="100%">
         <h3>Original</h3>
